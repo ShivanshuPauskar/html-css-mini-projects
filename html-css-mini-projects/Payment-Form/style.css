@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    padding: 8px;
+}
+.form-container{
+    background-color:antiquewhite;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgba(17, 16, 15, 0.221);
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+#card-type,
+textarea{
+    width: 99%;
+    padding: 10px;
+    border: 1px rgba(17, 16, 15, 0.221);
+    border-radius: 5px;
+    margin: 10px;
+}
+.main{
+    text-align: center;
+}
+fieldset{
+    border: 1px solid rgba(17, 15, 15, 0.221);
+}
+button{
+    font-weight: 700;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    background-color:rgb(158, 93, 15);
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+button:hover{
+    background-color:white;
+    color: black;
+}

@@ -1,0 +1,41 @@
+h1,h2{
+    text-align: center;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.luffy,
+.naruto{
+    width: 350px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.zoro{
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 600px;
+    align-self: flex-start;
+}
+img{
+    width: 350px;
+    height: 280px;
+}
+button{
+    background-color: gray;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    border: 1px solid gray;
+    margin: 20px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: larger;
+}
+p{
+    padding: 5px;
+}

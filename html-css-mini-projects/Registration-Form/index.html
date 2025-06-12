@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="project4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <label>First Name:
+                <input type="text" name="fname" placeholder="First Name" required>
+            </label>
+
+            <label>Last Name:
+                <input type="text" name="lname" placeholder="Last Name" required>
+            </label>
+
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+
+            <label>Phone Number:</label>
+            <input type="text" value="+91" name="country_code" size="3" readonly>
+            <input type="text" name="phone" placeholder="1234-567890" pattern="[0-9]{4}-[0-9]{6}" required>
+
+            <label>Email ID:
+                <input type="email" name="email" placeholder="abc@gmail.com" required>
+            </label>
+
+            <label>Date of Birth:
+                <input type="date" name="dob" required>
+            </label>
+
+            <label>Favourite Cars:</label>
+            <label><input type="checkbox" name="car" value="BMW"> BMW</label>
+            <label><input type="checkbox" name="car" value="Audi"> Audi</label>
+            <label><input type="checkbox" name="car" value="i10"> i10</label>
+
+            <label>Subject:</label>
+            <select name="subject" required>
+                <option value="">--Select--</option>
+                <option>Maths</option>
+                <option>CSE</option>
+                <option>Physics</option>
+                <option>Chemistry</option>
+            </select>
+
+            <label>Tell about yourself:</label>
+            <textarea name="about" placeholder="Write here..."></textarea>
+
+            <label>Upload your resume:
+                <input type="file" name="resume" required>
+            </label>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

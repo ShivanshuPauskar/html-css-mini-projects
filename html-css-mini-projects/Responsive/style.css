@@ -1,0 +1,50 @@
+h1{
+    color: red;
+    text-align: center;
+}
+@media all and (min-width: 800px){
+   .boxes{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       gap:20px;
+   }
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.box1{
+    background-image: url(images/andhadhun-poster2.jpeg);
+    background-size: cover;
+}
+.box2{
+    background-image:url(images/kill.webp);
+    background-size: cover;
+}
+.box3{
+    background-image:url(images/stree_2.webp);
+    background-size: cover;
+}
+.box4{
+    background-image:url(images/kgf.jpg);
+    background-size: cover;
+}
+@media all and (max-width: 799px) and  (min-width: 500px){
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+}
+@media all and (max-width: 499px){
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        gap:20px;
+    }
+}
